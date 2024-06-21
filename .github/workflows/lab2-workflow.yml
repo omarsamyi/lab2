@@ -1,5 +1,8 @@
 name: Exploring Workflow Dispatch Trigger
 
+env:
+  ACTIONS_STEP_DEBUG = true
+  
 on:
   workflow_dispatch:
     inputs:
